@@ -1,0 +1,20 @@
+{
+  "name": "sorted-file-tree",
+  "description": "walk a tree and callback with the paths sorted ",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/soldair/node-sorted-file-tree.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Ryan Day",
+  "dependencies": {
+    "binarysearch": "~0.2.4",
+    "walkdir": "~0.0.7"
+  },
+  "devDependencies": {
+    "tape": "~2.13.3"
+  }
+}
